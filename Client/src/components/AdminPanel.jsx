@@ -69,7 +69,7 @@ function EventList() {
         ))}
       </ul>
 
-      <h2>Add New Event</h2>
+      <h2>Add New Event For Admins</h2>
       <input
         type="text"
         placeholder="Event Name"
