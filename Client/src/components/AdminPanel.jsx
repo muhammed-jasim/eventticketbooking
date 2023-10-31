@@ -56,7 +56,7 @@ function EventList() {
 
   return (
     <div>
-      <h2>Event List For Admins</h2>
+      <h2>Event List For Admins checking</h2>
       <ul>
         {events.map((event) => (
           <li key={event._id}>
