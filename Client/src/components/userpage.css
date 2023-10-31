@@ -1,0 +1,57 @@
+/* UserPage.css */
+
+/* Style the container */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  /* Style event cards */
+  .event-card {
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Style the "Book Tickets" button */
+  button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  /* Style the selected event container */
+  .selected-event {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #dc0e0e4c;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  /* Style the ticket booking form */
+  input[type="number"] {
+    width: 50px;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  /* Style the "Book" button in the selected event section */
+  .selected-event button {
+    background-color: #28a745;
+    color: #fff;
+  }
+  

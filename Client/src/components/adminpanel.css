@@ -1,0 +1,101 @@
+/* dashboard.css */
+.container {
+  max-width: 1000px; /* Wider container for a dashboard look */
+  margin: 20px auto; /* Add some margin for spacing */
+  padding: 20px;
+  background-color: #2b2b2b; /* Dark background color */
+  color: #fff; /* Light text color */
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background-color: #333; /* Darker card background color */
+  padding: 15px; /* Slightly larger padding for cards */
+  margin-bottom: 15px; /* More spacing between cards */
+  border-radius: 10px; /* Rounded corners for cards */
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li h3 {
+  font-size: 20px; /* Larger font for card headings */
+  margin: 0;
+  color: #fff; /* Light text color */
+}
+
+p {
+  font-size: 16px; /* Larger font for card content */
+  margin: 0;
+  color: #ccc; /* Lighter text color */
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px; /* Larger button size */
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px; /* Larger font for buttons */
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Form Styles */
+input[type="text"],
+input[type="date"],
+textarea,
+input[type="number"] {
+  width: 100%;
+  padding: 15px; /* Larger input field padding */
+  margin-bottom: 15px; /* More spacing between form fields */
+  border: 1px solid #b1bd7f; /* Darker border color */
+  border-radius: 10px; /* Rounded corners for form fields */
+  font-size: 16px;
+  background-color: #3b4e1134; /* Darker input background color */
+  color: #fff; /* Light text color */
+}
+
+button[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 15px 30px; /* Larger submit button size */
+  border-radius: 10px; /* Rounded corners for the submit button */
+  cursor: pointer;
+  font-size: 18px; /* Larger font for the submit button */
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+/* Darker background for the whole page */
+body {
+  background-color: #2b2b2b; /* Dark background color */
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Give the form a bit of transparency */
+.container {
+  background-color: rgba(103, 132, 110, 0.8); /* Slight transparency for the container */
+}
