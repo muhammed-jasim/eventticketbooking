@@ -1,10 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.admin-section{
+  /* border: 2px solid red;  */
+}
+.heading-div{
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.admin-input-div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* border: 2px solid red; */
+
+}
+.admin-input-div input,textarea,button{
+  width: 60%;
+  max-width:60%;
+  min-width: 60%;
+  height: 40px;
+  margin: 8px;
+  border-radius: 5px;
+  border: 0.5px solid rgb(120, 104, 104);
+  outline: none;
+  padding: 10px;
+  color: black;
+  font-weight: 600;
+}
+
+/* media query for mobile device */
+@media (max-width: 500px) {
+  .admin-input-div input,textarea{
+    width: 90%;
+    max-width:90%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* dashboard.css */
-.container {
-  max-width: 1000px; /* Wider container for a dashboard look */
-  margin: 20px auto; /* Add some margin for spacing */
+/* .container {
+  max-width: 1000px;
+  margin: 20px auto; 
   padding: 20px;
-  background-color: #2b2b2b; /* Dark background color */
-  color: #fff; /* Light text color */
+  background-color: #2b2b2b; 
+  color: #fff; 
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
 }
@@ -20,74 +89,72 @@ ul {
 }
 
 li {
-  background-color: #333; /* Darker card background color */
-  padding: 15px; /* Slightly larger padding for cards */
-  margin-bottom: 15px; /* More spacing between cards */
-  border-radius: 10px; /* Rounded corners for cards */
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+  background-color: #333; 
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 10px; 
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
 li h3 {
-  font-size: 20px; /* Larger font for card headings */
+  font-size: 20px; 
   margin: 0;
-  color: #fff; /* Light text color */
+  color: #fff; 
 }
 
 p {
-  font-size: 16px; /* Larger font for card content */
+  font-size: 16px; 
   margin: 0;
-  color: #ccc; /* Lighter text color */
+  color: #ccc; 
 }
 
 button {
   background-color: #007bff;
   color: #fff;
   border: none;
-  padding: 10px 20px; /* Larger button size */
+  padding: 10px 20px; 
   border-radius: 5px;
   cursor: pointer;
-  font-size: 16px; /* Larger font for buttons */
+  font-size: 16px; 
 }
 
 button:hover {
   background-color: #0056b3;
 }
 
-/* Form Styles */
+
 input[type="text"],
 input[type="date"],
 textarea,
 input[type="number"] {
   width: 100%;
-  padding: 15px; /* Larger input field padding */
-  margin-bottom: 15px; /* More spacing between form fields */
-  border: 1px solid #b1bd7f; /* Darker border color */
-  border-radius: 10px; /* Rounded corners for form fields */
+  padding: 15px; 
+  margin-bottom: 15px; 
+  border: 1px solid #b1bd7f;
+  border-radius: 10px;
   font-size: 16px;
-  background-color: #3b4e1134; /* Darker input background color */
-  color: #fff; /* Light text color */
+  background-color: #3b4e1134; 
+  color: #fff; 
 }
 
 button[type="submit"] {
   background-color: #007bff;
   color: #fff;
   border: none;
-  padding: 15px 30px; /* Larger submit button size */
-  border-radius: 10px; /* Rounded corners for the submit button */
+  padding: 15px 30px; 
+  border-radius: 10px; 
   cursor: pointer;
-  font-size: 18px; /* Larger font for the submit button */
+  font-size: 18px;
 }
 
 button[type="submit"]:hover {
   background-color: #0056b3;
 }
 
-/* Darker background for the whole page */
 body {
-  background-color: #2b2b2b; /* Dark background color */
+  background-color: #2b2b2b;
   margin: 0;
   display: flex;
   justify-content: center;
@@ -95,7 +162,7 @@ body {
   min-height: 100vh;
 }
 
-/* Give the form a bit of transparency */
+
 .container {
-  background-color: rgba(103, 132, 110, 0.8); /* Slight transparency for the container */
-}
+  background-color: rgba(103, 132, 110, 0.8); 
+} */

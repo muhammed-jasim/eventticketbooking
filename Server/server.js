@@ -10,9 +10,9 @@ app.use(cors());
 app.use(cors({
     origin: 'http://localhost:5173', // Replace with the actual URL of your front end
   }));
-
+  
 // Connect to MongoDB (make sure MongoDB is installed and running)
-mongoose.connect('mongodb://localhost:27017/eventdb', {
+mongoose.connect('mongodb://127.0.0.1:27017/eventdb', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });

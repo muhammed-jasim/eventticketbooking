@@ -55,8 +55,10 @@ function EventList() {
 
 
   return (
-    <div>
-      <h2>Event List For Admins checking</h2>
+    <div className='admin-section'>
+      <div className='heading-div'>
+        <h2>Event List</h2>
+      </div>
       <ul>
         {events.map((event) => (
           <li key={event._id}>
@@ -68,33 +70,36 @@ function EventList() {
           </li>
         ))}
       </ul>
-
-      <h2>Add New Event</h2>
-      <input
-        type="text"
-        placeholder="Event Name"
-        value={newEvent.name}
-        onChange={(e) => setNewEvent({ ...newEvent, name: e.target.value })}
-      />
-      <input
-        type="date"
-        value={newEvent.date}
-        onChange={(e) => setNewEvent({ ...newEvent, date: e.target.value })}
-      />
-      <textarea
-        placeholder="Event Description"
-        value={newEvent.description}
-        onChange={(e) =>
-          setNewEvent({ ...newEvent, description: e.target.value })
-        }
-      />
-       
-      <input
-        placeholder="price"
-        value={newEvent.price}
-        onChange={(e) => setNewEvent({ ...newEvent, price: e.target.value })}
-      />
-      <button onClick={addEvent}>Add Event</button>
+      <div className='heading-div'>
+        <h2>Add New Event</h2>
+      </div>
+      <div className='admin-input-div'>
+        <input
+          type="text"
+          placeholder="Event Name"
+          value={newEvent.name}
+          onChange={(e) => setNewEvent({ ...newEvent, name: e.target.value })}
+        />
+        <input
+          type="date"
+          value={newEvent.date}
+          onChange={(e) => setNewEvent({ ...newEvent, date: e.target.value })}
+        />
+        <textarea
+          placeholder="Event Description"
+          value={newEvent.description}
+          onChange={(e) =>
+            setNewEvent({ ...newEvent, description: e.target.value })
+          }
+        />
+        
+        <input
+          placeholder="price"
+          value={newEvent.price}
+          onChange={(e) => setNewEvent({ ...newEvent, price: e.target.value })}
+        />
+        <button onClick={addEvent}>Add Event</button>
+      </div>
     </div>
   );
 }
